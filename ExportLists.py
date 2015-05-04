@@ -111,5 +111,12 @@ if export_thumbs_up:
 
     playlist_handler('thumbs_up', 'Thumbs up tracks', thumbs_up_tracks_formatted)
 
+if export_library:
+    library_formatted = []
+    for t in library:
+        library_formatted.append({'track':t})
+
+    playlist_handler('library', 'Library', library_formatted)
+
 close_api()
     

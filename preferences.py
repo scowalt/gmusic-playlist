@@ -41,3 +41,6 @@ log_high_matches = False
 
 # export "Thumbs Up" playlist
 export_thumbs_up = True
+
+# export entire library as a playlist
+export_library = True
